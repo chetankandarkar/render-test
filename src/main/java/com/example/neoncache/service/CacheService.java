@@ -65,7 +65,7 @@ public class CacheService {
                     LocalDateTime.now()
             );
 
-            requestLogRepository.save(requestLog);
+//            requestLogRepository.save(requestLog);
 
             log.info("DATABASE INSERT SUCCESS");
 
